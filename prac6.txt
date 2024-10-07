@@ -1,0 +1,20 @@
+Practical 6 
+Q] Practical 6: 
+   Suppose you are the part of development team working on any application you have just cloned the repo and start to do the work on the updation of any page or file after making the changes on the code base now you want to review what modifications you made before committing however there is also collaboration with other team members and if any one 0f them has pushed any change to the repo that you have not incorporated in your local branch yet for the above you have to do the foll task
+
+1. clone the repo 
+
+2. to view the status of your local repo 
+(make few updations in file and before committing you want to see current status of your working directory)
+
+3. comparing the changes using diff command
+(before committing you want to compare your changes with the original file to see that which lines are added in the existing file)
+--->git diff
+
+4. To check the changes in the staged area 
+(when you add file in staging area then do the comparison between the staging area)
+--->git diff --staged
+
+5. To fetch and review the remote changes 
+If anyone from the team has pushed the changes in remote repo then which command will be used to fetch and review the difference 
+--->git diff origin/master
